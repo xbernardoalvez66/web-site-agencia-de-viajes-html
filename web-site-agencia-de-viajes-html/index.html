@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web site agencia de viajes</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<div class="left-menu">
+			<div class="logo">Tra <span class="primary-color">Vel</span></div>
+			<ul class="navbar">
+				<a href="#"><li>Destinations</li></a>
+				<a href="#"><li>Holidays Ideas </li></a>
+				<a href="#"><li>Packeages</li></a>
+				<a href="#"><li>Place to Stay</li></a>
+				<a href="#"><li>Weekend Gateways</li></a>
+			</ul>
+		</div>
+		<ul class="navbar">
+			<a href="#">
+				<li><img src="img/destinaton-wedding.svg" alt="">Destinations Weddinngs</li>
+			</a>
+			<a href="#">
+				<li><img src="img/mics.svg" alt="">Pages</li>
+			</a>
+			<a href="#">
+				<li><img src="img/medical-tourism.svg" alt="">Medical Tourism</li>
+			</a>
+		</ul>
+	</nav>
+	<div class="home-sec">
+		<div class="left-banner swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/pexels-michael-block-3225528.jpg" alt="">
+				</div>
+
+				<div class="swiper-slide">
+					<img src="img/banner-img.webp" alt="">
+				</div>
+
+				<div class="swiper-slide">
+					<img src="img/banner-img01.webp" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="right-container">
+			<h1>Let  us plane <br>perfect <span class="primary-color">Indian Holiday</span></h1>
+			<p>Personalised, well-craffet  tour packages for bes experience</p>
+			<div class="tripGrid">
+				<div class="tripCard">
+					<h3>Heritage</h3>
+					<span>20+ packages</span>
+					<img src="img/pexels-pixabay-161401.jpg" alt="">
+				</div>
+
+				<div class="tripCard">
+					<h3>Treakking</h3>
+					<span>60+ packages</span>
+					<img src="img/pexels-andrei-tanase-1271619.jpg" alt="">
+				</div>
+
+				<div class="tripCard">
+					<h3>Beach Tour</h3>
+					<span>20+ packages</span>
+					<img src="img/pexels-shahbaz-akram-1040795.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	 <script>
+	 	var swiper = new Swiper(".mySwiper", {
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        },
+        centeredSlides:true,
+        autoplay:{
+           delay:3000,
+           disableOnInteraction:false,
+
+        },
+        loop:true,
+      });
+	 </script>
+
+</body>
+</html>
